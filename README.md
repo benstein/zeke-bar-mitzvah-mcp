@@ -20,7 +20,7 @@ npx github:benstein/zeke-bar-mitzvah-mcp
 
 ## Wiring it into Claude Desktop
 
-Add this to your `claude_desktop_config.json`:
+In Claude Desktop, go to **Claude → Settings → Developer → Edit Config**. That opens `claude_desktop_config.json` in your default editor (and creates it if needed). Add this:
 
 ```json
 {
