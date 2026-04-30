@@ -7,7 +7,7 @@ This is a real, working stdio MCP server. It fetches structured event data from 
 ## Install
 
 ```sh
-npx zeke-bar-mitzvah-mcp
+npx github:benstein/zeke-bar-mitzvah-mcp
 ```
 
 ## Tools
@@ -27,7 +27,7 @@ Add this to your `claude_desktop_config.json`:
   "mcpServers": {
     "zeke-bar-mitzvah": {
       "command": "npx",
-      "args": ["-y", "zeke-bar-mitzvah-mcp"]
+      "args": ["-y", "github:benstein/zeke-bar-mitzvah-mcp"]
     }
   }
 }
@@ -38,7 +38,7 @@ Restart Claude Desktop, then ask "what time does Zeke's bar mitzvah service star
 ## Wiring it into Claude Code
 
 ```sh
-claude mcp add zeke-bar-mitzvah -- npx -y zeke-bar-mitzvah-mcp
+claude mcp add zeke-bar-mitzvah -- npx -y github:benstein/zeke-bar-mitzvah-mcp
 ```
 
 ## Dev
