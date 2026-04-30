@@ -2,7 +2,7 @@
 
 An MCP server that exposes logistics for Zeke's Bar Mitzvah, May 9 2026.
 
-This is a real, working stdio MCP server. It fetches structured event data from <https://benjaminste.in/zekes-bar-mitzvah/index.json> and exposes it as MCP tools, so any AI assistant that speaks MCP (Claude Desktop, Claude Code, etc.) can answer questions about the day-of schedule, get directions, look up dress codes, or confirm phone-drop check-ins for teens.
+A stdio MCP server. It fetches structured event data from <https://benjaminste.in/zekes-bar-mitzvah/index.json> and exposes it as MCP tools, so any AI assistant that speaks MCP (Claude Desktop, Claude Code, etc.) can answer questions about the day-of schedule, get directions, look up dress codes, or confirm phone-drop check-ins for teens.
 
 ## Install
 
